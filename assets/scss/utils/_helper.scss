@@ -12,7 +12,6 @@ $max: 50;
 // .fz-50 = font size 200px
 
 
-
 @for $i from 0 through $max {
     .fz-sm#{$i} {@include rwd-sm-max {font-size: $i*4px;}}
     .fz-md#{$i} {@include rwd-md-max {font-size: $i*4px;}}

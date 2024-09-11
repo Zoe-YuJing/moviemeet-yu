@@ -1,5 +1,16 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import "bootstrap/scss/functions";
 
 
-@import './pages/index.scss';
+
+@import "bootstrap/scss/bootstrap";
+
+
+// base
+@import "./base/base";
+
+// pages
+@import "./pages/dramaInfo.scss";
+
+// utils
+// @import "./utils/helper";
+@import "./utils/mixin";

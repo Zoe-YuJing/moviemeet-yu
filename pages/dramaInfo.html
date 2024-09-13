@@ -4,80 +4,147 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <title>index</title>
   </head>
   <body>
     <!-- header -->
-    <div class="container">
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
+    <div class="header py16 pt-sm6 pb-sm10">
+      <div class="bg-dark.bg-gradient">HEADER</div>
     </div>
-    <!-- section1 -->
-    <div class="container">
-      <div>
+
+    <!-- banner -->
+    <section>
+      <div class="container">
         <img
-          src="../assets/images/drama-doctor.jpeg"
+          src="/assets/images/drama-doctor001.jpg"
           class="img-fluid"
           alt="戲劇名稱"
         />
       </div>
-      <h1 class="text-white">低谷醫生</h1>
-      <span class="badge bg-danger">愛情</span>
-      <span class="badge bg-danger">醫療</span>
+    </section>
+    <!-- section1-劇名標籤+主要角色+瀏覽次數 -->
+    <section class="mt8">
+      <div class="container d-flex justify-content-between align-items-start">
+        <!-- 左邊  -->
+        <div>
+          <!-- 劇名標籤 -->
+          <div class="d-md-flex justify-content-between">
+            <h1 class="text-white mb2">低谷醫生</h1>
+            <div class="mt2 mb2">
+              <span class="badge bg-danger mr4">愛情</span>
+              <span class="badge bg-danger">醫療</span>
+            </div>
+          </div>
+          <!-- 主要角色 -->
+          <div class="mt8">
+            <h2 class="text-white">主要演員</h2>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb text-white-50">
+                <li class="breadcrumb-item"><a href="#">朴炯植</a></li>
+                <li class="breadcrumb-item"><a href="#">朴信惠</a></li>
+                <li class="breadcrumb-item" aria-current="page">尹博</li>
+                <li class="breadcrumb-item" aria-current="page">孔星賀</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
 
-      <div>
-        <h2 class="text-white">主要演員</h2>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">朴炯植</a></li>
-            <li class="breadcrumb-item"><a href="#">朴信惠</a></li>
-            <li class="breadcrumb-item" aria-current="page">尹博</li>
-            <li class="breadcrumb-item" aria-current="page">孔星賀</li>
-          </ol>
-        </nav>
+        <!-- 右邊 -->
+        <div class="">
+          <div class="">
+            <ul class="list-group">
+              <li class="list-group-item bg-opacity-75">
+                <i class="bi bi-chat-dots mr2"></i>聊天劇串: #159
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-people mr2"></i>聊劇人數: 1.2K
+              </li>
+              <li class="list-group-item">
+                <i class="bi bi-broadcast-pin mr2"></i>共振次數: 5.2M
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="container">
-      <h2 class="text-white">劇情介紹</h2>
-      <p>
-        這兩位優秀的醫師在求學時期曾是死對頭，如今偶然再相逢，兩人都處於人生最低潮，竟意外在彼此身上尋得慰藉。
-      </p>
-    </div>
-
-    <div class="container">
-      <h2 class="text-white">分集劇情</h2>
-
-      <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton1 "
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Dropdown button
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
+    <!-- section2-劇情大綱+分集劇情+熱門劇串 -->
+    <section class="mt8">
+      <div class="container d-flex">
+        <div>
+          <!-- 劇情大綱 -->
+          <div>
+            <h2 class="text-white">劇情介紹</h2>
+            <p class="text-white-50">
+              這兩位優秀的醫師在求學時期曾是死對頭，如今偶然再相逢，兩人都處於人生最低潮，竟意外在彼此身上尋得慰藉。
+            </p>
+          </div>
+          <!-- 分集介紹 -->
+          <div class="mt8">
+            <div class="d-flex justify-content-between">
+              <h2 class="text-white">分集劇情</h2>
+              <div class="dropdown">
+                <button
+                  class="btn btn-sm btn-secondary btn-primary"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  第01集
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">第01集</a></li>
+                  <li><a class="dropdown-item" href="#">第02集</a></li>
+                  <li><a class="dropdown-item" href="#">第03集</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- 分集劇情文字 -->
+            <div class="mt4 border border-warning">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                laudantium inventore debitis adipisci qui ipsa cum recusandae
+                provident ipsum, eligendi quas blanditiis quae quis dolores
+                unde, sint reprehenderit praesentium minima! Lorem ipsum dolor,
+                sit amet consectetur adipisicing elit. Unde repellat repudiandae
+                quisquam enim nesciunt aliquam, illum hic recusandae beatae
+                rerum, ab rem corrupti facilis architecto maiores perferendis
+                esse odit consequatur. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Labore placeat praesentium corrupti veniam
+                sapiente totam deserunt magni, delectus reprehenderit
+                consectetur, voluptate, officia alias provident facere omnis
+                optio laborum nemo! Dignissimos!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 熱門劇串 -->
+        <div class="d-none d-lg-block">
+          <div class="d-flex">
+            <h3>熱門劇串</h3>
+            <i class="bi bi-three-dots"></i>
+            <div>
+              <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="../main.js"></script>
   </body>
 </html>

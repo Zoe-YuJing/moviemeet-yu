@@ -1,0 +1,51 @@
+// .tagbtn-bg{
+//     background: linear-gradient(
+//       to left top,
+//       rgba(254, 254, 254, 0.2),
+//       rgba(14, 14, 14, 0.3),
+//       rgba(14, 14, 14, 0.0),
+//    )
+// }
+
+.btn-bg {
+  background: radial-gradient(
+      48.5% 282.29% at 6.96% 138.75%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.tagbtn-bg {
+  background: radial-gradient(
+    107.33% 208.55% at 6.96% 138.75%,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 4px;
+  padding: 0 8px 0 8px;
+}
+
+.tagbtn-text {
+  font-size: 16px;
+}
+
+.bg-gray-500 {
+  background-color: #262626;
+}
+
+.card-tag {
+  font-size: 14px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.border-color{
+  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.18) 46%, rgba(255, 255, 255, 0.18) 100%);
+}
+
+.tagbtn-w a{
+  width: 25%;
+}

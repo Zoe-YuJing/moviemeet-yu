@@ -1,0 +1,59 @@
+.breadcrumb-text {
+  font-size: 14px;
+  padding-right: 4px;
+  color: $gray-300;
+}
+
+
+.box-border {
+  border: 2px solid;
+  border-color: $primary;
+  border-radius: 8px;
+  //   border-image-source: linear-gradient(
+  //     180deg,
+  //     rgba(255, 255, 255, 0.3) 0%,
+  //     #ffffff2e 46%,
+  //     rgba(255, 255, 255, 0.18) 100%
+  //   );
+}
+
+.md-btn-bg{
+  border: 1px solid $gray-100;
+  color: $gray-200;
+}
+
+
+
+
+
+.btn-bg {
+  border-color: transparent;
+  background: radial-gradient(
+    48.5% 282.29% at 6.96% 138.75%,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.btn-item {
+  text-align: start;
+}
+
+.btn-text {
+  color: $gray-100;
+}
+
+.btn-item a {
+  width: 25%;
+}
+
+
+
+.card{
+  background-color: $gray-500;
+}
+
+.card-text{
+  color: $gray-300;
+  font-size: 14px;
+}
